@@ -1,0 +1,98 @@
+body, header, hr, nav, section{
+    display: block;
+}
+body  {
+	font: 18px/1.5 Verdana, Geneva, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 1.5px; 
+    background-color: #1FB3AB; 
+    margin: 0; 
+    width: 100%; 
+    top: 50%;
+
+}
+
+body {
+background-color: #1FB3AB;
+margin: 0;
+padding-bottom: 25px;
+}
+h1{
+text-shadow: 3px 3px 3px black;
+color: #999;
+font-family: monospace;
+
+
+}
+header{
+    padding-left: 10px;
+}
+.top-nav{
+
+    
+    background-color: #e6e5e5;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+   
+    margin-top: 0%;
+}
+#wrap{
+display: flex;
+box-sizing:  border-box;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 90%;
+background-color: white;
+margin-left: auto;
+margin-right:auto;  
+margin-bottom: 1%; 
+overflow: auto;
+
+}
+h2{
+
+    font-family: verdana;
+    color: #999;
+    font-weight: bold;
+}
+section{
+
+    flex: 1;
+    margin: 2%;
+    align-self: flex-start;
+    box-shadow: 0 2px 4px #444;
+    padding: 1%;
+    color: #999;
+
+}
+nav ul {
+
+    padding-top: 0;
+    display: flex;
+    justify-content: left;
+    padding-left: 0px;
+    list-style: none;
+}
+nav li{
+    padding-right: 30px;
+    font-family: vendana;
+}
+nav a{
+    font-size: 15px;
+    color: #999;
+    text-decoration: none;
+}
+
+section img{
+    width: 100%;
+}
+section a{
+
+    color: #999;
+    font-size: 14px;
+}
